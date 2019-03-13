@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src='./main.js'></script>
+        
+    </head>
+    <body>
+        <h1>AES-CTR 2!</h1>
+        You listened on the cable a bit and were able to capture the following ciphertexts:
+        <div id="secret_ciphertext"></div>
+        It has been encrypted with AES256-CTR with the code in ctr2.py. You can check the code!<br>
+        Break the first one, and send the flag here:<br>
+        <input id="flag_input"><br>
+        <button id="btn_verify">Verify</button><br>
+        <div id="verify_box"></div>
+        Note that due to the random nature of flag generation, the challenge MIGHT be impossible, but that's a rare occurence. Just re-run the server if it does.<br>
+    </body>
+</html>

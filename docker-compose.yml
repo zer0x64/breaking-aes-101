@@ -1,0 +1,34 @@
+version: '3'
+services:
+  ecb1:
+    build: ./challenges/ecb/ecb1/
+    ports:
+        - "5000:5000"
+  ecb2:
+    build: ./challenges/ecb/ecb2/
+    ports:
+      - "5001:5000"
+  cbc2:
+    build: ./challenges/cbc/cbc2/
+    ports:
+      - "5002:5000"
+  cbc3:
+    build: ./challenges/cbc/cbc3/
+    ports:
+      - "5003:5000"
+  cbc4:
+    build: ./challenges/cbc/cbc4/
+    ports:
+      - "5004:5000"
+  ctr1:
+    build: ./challenges/ctr/ctr1/
+    ports:
+      - "5005:5000"
+  ctr2:
+    build: ./challenges/ctr/ctr2/
+    ports:
+      - "5006:5000"
+  gcm1:
+    build: ./challenges/gcm/gcm1/
+    ports:
+      - "5007:5000"

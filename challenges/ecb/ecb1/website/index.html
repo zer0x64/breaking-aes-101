@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src='./main.js'></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>AES-ECB 1!</h1>
+        When you enter your username, the application gives you a session token. However, it is not an admin one.<br>
+        You can generate your token here:<br>
+        <input id="name_input"><br>
+        <button id="btn_get_token">Encrypt</button><br>
+        <h2 id="token_box"></h2>
+        Forge yourself an admin token!<br>
+        Checking the server code is permitted and can help you. Just don't modify it!<br>
+        You can try your token here:<br>
+        <input id="token_input"><br>
+        <button id="btn_verify">Verify</button><br>
+        <div id="verify_box"></div>
+    </body>
+</html>
